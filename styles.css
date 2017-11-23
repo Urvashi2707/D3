@@ -1,0 +1,29 @@
+body{
+    background: #1a1a1a;
+    color : #eaeaea;
+    padding : 10px;
+}
+.chart rect {
+    fill: steelblue;
+}
+
+.chart rect:hover {
+    fill: brown;
+}
+
+.chart text {
+    fill: white;
+    font: 10px sans-serif;
+    text-anchor: middle;
+}
+
+.axis text{
+    font: 10px sans-serif;
+}
+
+.axis path, .axis line{
+    fill: none;
+    stroke : #fff;
+    shape-rendering: crispEdges;
+}
+
