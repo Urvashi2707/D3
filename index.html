@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <!--<meta http-equiv="refresh" content="60" >-->
-    <title>Title</title>
+    <title>D3 chart</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <style>
 
         .chart rect {
@@ -39,6 +42,17 @@
 </head>
 
 <body>
+ <div class="container">
+     <h2>D3 Chart </h2>
+     <ul>
+         <li>program fetches the exchange rate of all crypto currencies in USD and displays them using Bar Chart</li>
+         <li>
+             It refreshes the data after every 5 minutes
+         </li>
+         <li>Following public api is used to get the data: https://api.coinmarketcap.com/v1/ticker/?limit=10.</li>
+     </ul>
+ </div>
+
 
 <svg class="chart"></svg>
 <!--<script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>-->
